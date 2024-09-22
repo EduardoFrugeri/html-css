@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+body{
+
+   
+}
+
+h1{
+    font-family: "Work Sans";
+    font-size: 4em;
+
+    text-align: center;
+
+
+}
+p{
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 2em;
+
+
+    text-align: justify;
+    text-indent: 30px;
+}

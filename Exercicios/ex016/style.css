@@ -1,0 +1,7 @@
+*{ /*Configurações globais*/
+ height: 100%;   
+}
+body{
+    background-image: linear-gradient(-135deg,#8F03F9 ,#FC00D8,#FE035A,#FE8100,#FFC800 95%);
+    background-attachment: fixed;
+}

@@ -1,5 +1,17 @@
 body{
-    background-image: url(imagens/imagens-cap19/wallpaper005.jpg);
-    background-size: 100px 100px;
+    margin: 0px;
+    height: 100%;
+    background-image: url(imagens/imagens-cap19/wallpaper002.jpg);
+
     background-repeat: repeat-y;
+    background-size: 100px 100px;
+}
+
+div{
+    background-color: white;
+    width: 360px;
+    margin: auto;
+    border: 1px solid black ;
+    border-radius: 4px;
+    padding: 3px 8px;
 }

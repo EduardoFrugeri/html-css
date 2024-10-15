@@ -1,1 +1,19 @@
-div.bloco{}
+div.bloco{
+background-image: url(imagens/imagens-cap19/wallpaper003.jpg);
+
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div#q1{
+background-position: left top;
+}
+
+div#q2{
+background-position: center center;
+}
+ div#q3{
+background-position: right bottom;
+ }

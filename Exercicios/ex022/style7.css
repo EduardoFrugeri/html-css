@@ -9,7 +9,7 @@ background-size: 100% 100%;
 }
 
 #conteudo{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 400px;
     background-color: yellow;

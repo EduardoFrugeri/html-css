@@ -1,0 +1,73 @@
+
+
+@font-face{
+    font-family:'passion one';
+    src: url(fonts/passion-one/PassionOne-Bold.ttf) format('truetype');
+    
+    font-weight: normal;
+    font-style: normal; 
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte3);
+}
+
+.passion-one-regular {
+    
+  }
+
+:root {
+    --fonteh1:'Passion One', cursive ;
+    --fontetxt:'Sriracha', cursive;
+    --fonte3:'verdana', 'sans-serif';
+}
+
+header{
+    
+    margin: 0px;
+    color: white;
+    background-color: black;
+    display: block;
+    max-width: 1370px;
+    height: 274px;
+    
+    
+
+}
+
+header>div>h1{
+
+    padding: 0px;
+    margin: auto;
+    display: block;
+}
+
+
+
+header>div.caixah1{
+    font-family: var(--fonteh1);
+    margin: auto;
+    
+    padding:50px;
+    
+    font-size: 270%;
+     
+     max-width: 52%;
+     
+     
+     font-style: sans-serif;
+     margin: auto;
+     
+}
+
+header>p{
+    margin: auto;
+}
+
+
+
+

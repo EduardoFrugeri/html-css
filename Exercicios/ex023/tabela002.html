@@ -14,11 +14,19 @@
             width: 500px;
             border-collapse: collapse;
             
+            position: relative;
+            
         }
 
         td , th{
             border: 2px solid lightblue;
             padding: 10px;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: 0;
+            background-color:gray ;
         }
 
         thead , tfoot{
@@ -29,6 +37,38 @@
         #numero{
             text-align: right;
             
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border: 2px  solid rgba(0, 0, 0, 0.473) ;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+
+        tbody tr:nth-child(3n-2){
+            color:rgb(27, 111, 221); 
+            background-color: rgba(228, 228, 86, 0.74);
+            text-decoration: underline;
+            text-decoration-color:rgba(51, 150, 38, 0.726);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274);
+        }
+        tbody tr:nth-child(3n-1){
+            background-color: #339626b9;
+            color: #e4e456;
+            text-decoration: underline;
+            text-decoration-color:#1b6fddbd;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274);
+        }
+        tbody tr:nth-child(3n){
+            color:#36cc22;
+            background-color: rgba(27, 111, 221, 0.74);
+            text-decoration: underline;
+            text-decoration-color:#e4e456;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274);
         }
 
 
@@ -59,10 +99,11 @@
 
     <table>
 
+        <caption>População das UF</caption>
         <thead>
             <tr>
-               <th>Estado</th>
-               <th>População</th>
+               <th scope="col">Estado</th>
+               <th scope="col" style="width: 120px;">População</th>
             </tr>
         </thead>
 
@@ -81,16 +122,82 @@
                 <td>Rio de Janeiro</td>
                 <td id="numero">17 264 943</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td id="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="numero">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td id="numero">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="numero">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td id="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="numero">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td id="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="numero">17 264 943</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td id="numero"><strong>84 352 783</strong></td>
             </tr>
         </tfoot>
 
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo assumenda doloremque magni in laudantium ullam eius blanditiis nostrum totam unde vel, inventore excepturi rerum molestiae aliquid ea! Eos, minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore possimus ratione est dolor vitae repellendus odit consectetur consequuntur, eligendi facilis, soluta ipsa, esse accusamus a autem amet quo minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur autem ex eaque blanditiis? Quaerat rem, eius quisquam ratione, fuga voluptate earum accusamus repellat itaque consectetur esse corporis, id iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium tenetur, accusamus placeat eos temporibus soluta ut reprehenderit. Architecto ullam nobis at facere laboriosam aliquid. Eveniet a quae architecto ab.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo assumenda doloremque magni in laudantium ullam eius blanditiis nostrum totam unde vel, inventore excepturi rerum molestiae aliquid ea! Eos, minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore possimus ratione est dolor vitae repellendus odit consectetur consequuntur, eligendi facilis, soluta ipsa, esse accusamus a autem amet quo minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur autem ex eaque blanditiis? Quaerat rem, eius quisquam ratione, fuga voluptate earum accusamus repellat itaque consectetur esse corporis, id iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium tenetur, accusamus placeat eos temporibus soluta ut reprehenderit. Architecto ullam nobis at facere laboriosam aliquid. Eveniet a quae architecto ab.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo assumenda doloremque magni in laudantium ullam eius blanditiis nostrum totam unde vel, inventore excepturi rerum molestiae aliquid ea! Eos, minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore possimus ratione est dolor vitae repellendus odit consectetur consequuntur, eligendi facilis, soluta ipsa, esse accusamus a autem amet quo minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur autem ex eaque blanditiis? Quaerat rem, eius quisquam ratione, fuga voluptate earum accusamus repellat itaque consectetur esse corporis, id iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium tenetur, accusamus placeat eos temporibus soluta ut reprehenderit. Architecto ullam nobis at facere laboriosam aliquid. Eveniet a quae architecto ab.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo assumenda doloremque magni in laudantium ullam eius blanditiis nostrum totam unde vel, inventore excepturi rerum molestiae aliquid ea! Eos, minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore possimus ratione est dolor vitae repellendus odit consectetur consequuntur, eligendi facilis, soluta ipsa, esse accusamus a autem amet quo minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur autem ex eaque blanditiis? Quaerat rem, eius quisquam ratione, fuga voluptate earum accusamus repellat itaque consectetur esse corporis, id iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium tenetur, accusamus placeat eos temporibus soluta ut reprehenderit. Architecto ullam nobis at facere laboriosam aliquid. Eveniet a quae architecto ab.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo assumenda doloremque magni in laudantium ullam eius blanditiis nostrum totam unde vel, inventore excepturi rerum molestiae aliquid ea! Eos, minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore possimus ratione est dolor vitae repellendus odit consectetur consequuntur, eligendi facilis, soluta ipsa, esse accusamus a autem amet quo minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur autem ex eaque blanditiis? Quaerat rem, eius quisquam ratione, fuga voluptate earum accusamus repellat itaque consectetur esse corporis, id iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium tenetur, accusamus placeat eos temporibus soluta ut reprehenderit. Architecto ullam nobis at facere laboriosam aliquid. Eveniet a quae architecto ab.</p>
 
 </body>
 </html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <p>
+            <label for="iidade">Idade: </label>
+            <input type="number" id="iidade" max="120" min="0" value="24" oninput="nasc.innerHTML = Number(2024) - Number(iidade.value)">
+            <p>
+                <label for="inasc">Você nasceu em: </label>
+                <output id="nasc">2000</output>
+            </p>
+    </form>
+    
+</body>
+</html>

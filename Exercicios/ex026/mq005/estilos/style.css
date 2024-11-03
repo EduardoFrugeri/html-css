@@ -1,4 +1,40 @@
+@charset "UTF-8";
 
+@media  screen and (min-width: 768px) /* 768 pra cima */ {
+    i#imenu{
+        display: none;
+
+    }
+
+    header nav{
+        display: block;
+        background-color: gray;
+        
+    }
+
+    nav ul{
+        
+    }
+
+    nav ul li{
+        display: inline-block;
+        width: 10vw;
+        border: 2px solid rgb(116, 116, 116) ;
+       box-sizing: border-box;
+       margin-right: 1.5vw;
+       padding: 7px;
+
+
+    }
+
+  
+    nav ul li:hover{
+        width: 10vw;
+    }
+
+    
+    
+}
 
 
 

@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
 
+
+    
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
 }
-body{
-    
-    width: 100%;
-}
+
 
 
 
@@ -44,10 +45,6 @@ nav{
 
 }
 
-main{
-    width: 60vw;
-   
-}
 
 ul{
     width: 100%;
@@ -63,7 +60,7 @@ li{
     border-radius: 5px;
    
     text-align: center;
-    padding: 8px;
+    padding: 9px;
     
     background-color: rgb(83, 83, 83);
     
@@ -75,7 +72,7 @@ li{
 
 header nav ul :hover{
     background-color: rgb(116, 116, 116);
-    border: 2px solid rgb(116, 116, 116) ;
+    
     box-sizing: border-box;
     cursor: pointer;
 }
@@ -86,21 +83,32 @@ a{
 }
 
 
-main{
-    width: 90vw;
-    background-color: rgb(209, 209, 209);
-    margin: auto;
-    padding: 5px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
+
 
 main h1{
     padding: 25px;
-    text-align: center;
+    
     
 }
 
 main p {
     padding: 15px;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        background-color: rgb(209, 209, 209);
+        margin: auto;
+        padding: 5px;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 90vw;
+        
+    }
+
+}
+

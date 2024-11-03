@@ -52,6 +52,7 @@ ul{
     
 }
 
+
 li{
     display: block;
     color: white;
@@ -93,6 +94,7 @@ main h1{
 
 main p {
     padding: 15px;
+    text-align: justify;
 }
 
 ::-webkit-scrollbar{

@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 
-
+header h1 {
+    position: relative;
     
+    left: 20px;
+}   
 
 main{
     width: 60vw;

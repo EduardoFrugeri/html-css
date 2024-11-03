@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+
+    
+
+main{
+    width: 60vw;
+    position: relative;
+    top: -11em;
+    left: 20px;
+}
+menu{
+    width: 0px;
+}
+ul{
+    width: 100px;
+    background-color: transparent;
+}
+
+li{
+    display: block;
+    
+    width: 4em;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+}

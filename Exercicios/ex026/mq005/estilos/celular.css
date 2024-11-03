@@ -14,7 +14,7 @@ header h1 {
     
 }   
 
-menu{
+nav{
     display: none;
 }
 
@@ -60,7 +60,7 @@ li{
     
 }
 
-header menu ul :hover{
+header nav ul :hover{
     background-color: rgb(116, 116, 116);
     border: 2px solid rgb(116, 116, 116) ;
     box-sizing: border-box;

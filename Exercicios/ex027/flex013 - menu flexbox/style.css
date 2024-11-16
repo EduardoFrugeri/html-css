@@ -25,13 +25,14 @@ header{
 }
 
 header h1{
-    border: 1px dotted black;
+    /*    border: 1px dotted black; */
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
 
 }
 
 header nav{
-    border: 1px dotted black;
+    /*   border: 1px dotted black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -64,5 +65,12 @@ header nav a:hover{
     background-color: white;
     color: rgb(0, 0, 0);
     transition: background-color 0.5s ease;
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    
 }
 
